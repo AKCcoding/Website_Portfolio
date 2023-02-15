@@ -377,9 +377,31 @@ h3.my-profession
     margin-left: 4px;
     display: inline-block;
 }
+.about .about-content .personal-info .buttons
+{
+    margin-top: 30px;
+}
+.about .about-content .personal-info .buttons .btn
+{
+    margin-right: 15px;
+    margin-top: 10px;
+}
 .about .about-content .skills
 {
     flex: 0 0 40%;
     max-width: 40%;
     margin-top: 40px;
+}
+.about .about-content .skills .skill-item
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .skills .skill-item h5
+{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
 }
