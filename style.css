@@ -72,7 +72,7 @@ ul
     white-space: nowrap;
     border: none;
     background: var(--skin-color);
-    transition:all 0.3s ease;
+    transition: all 0.3s ease;
 }
 .btn:hover
 {
@@ -239,7 +239,6 @@ h3.my-profession
 .typing
 {
     color: var(--skin-color);
-
 }
 .home-info p
 {
@@ -260,8 +259,8 @@ h3.my-profession
     position: absolute;
     height: 80px;
     width: 80px;
-    border-bottom: 10 px solid var(--skin-color);
-    border-right: 10 px solid var(--skin-color);
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
     right: 20px;
     bottom: -40px;
 }
@@ -271,8 +270,8 @@ h3.my-profession
     position: absolute;
     height: 80px;
     width: 80px;
-    border-top: 10 px solid var(--skin-color);
-    border-left: 10 px solid var(--skin-color);
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
     left: -20px;
     top: -40px;
 }
