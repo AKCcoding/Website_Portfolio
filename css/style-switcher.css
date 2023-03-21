@@ -69,7 +69,8 @@
 }
 .style-switcher .color-1
 {
-    background: #F28500;
+    
+    background: #ff00ff;
 }
 .style-switcher .color-2
 {
@@ -85,5 +86,5 @@
 }
 .style-switcher .color-5
 {
-    background: #ff00ff;
+    background: #F28500;
 }
