@@ -64,25 +64,3 @@ node_modules/
 
 # dotenv environment variables file
 .env
-.firebaserc
-public/404.html
-firebase.json
-public/index.html
-public/me.jpg
-public/css/color-1.css
-public/css/color-2.css
-public/css/color-4.css
-public/css/color-5.css
-public/images/portfolio/portfolio-6.jpg
-public/js/style-switcher.js
-public/js/script.js
-public/images/portfolio/portfolio-5.jpg
-public/images/portfolio/portfolio-4.jpg
-public/images/portfolio/portfolio-3.jpg
-public/images/portfolio/portfolio-2.jpg
-public/images/portfolio/portfolio-1.jpg
-public/css/style.css
-public/css/style-switcher.css
-public/css/color-3.css
-Y/404.html
-Y/index.html
