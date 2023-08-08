@@ -4,12 +4,28 @@
   "description": "A website portfolio by Alrae Kei",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "minify-html": "html-minifier-terser index.html --collapse-whitespace --output=dist/index.html",
+    "optimize-css": "postcss css/style.css --use autoprefixer cssnano postcss-pxtorem --output=dist/style.css",
+    "transpile-js": "babel js/script.js -o dist/script.js --presets=@babel/preset-env",
+    "minify-js": "uglifyjs dist/script.js --compress -o dist/script.js",
+    "build":  "npm run minify-html && npm run optimize-css && npm run transpile-js && npm run minify-js"
   },
   "repository": {
     "type": "git",
     "url": "www.github.com/AKCcoding/My-Website-Portfolio"
   },
   "author": "Alrae Kei",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "html-minifier-terser": "^7.2.0",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "postcss-pxtorem": "^6.0.0",
+    "uglify-js": "^3.17.4"
+  }
 }
