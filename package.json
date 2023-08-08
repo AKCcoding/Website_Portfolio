@@ -4,11 +4,9 @@
   "description": "A website portfolio by Alrae Kei",
   "main": "index.html",
   "scripts": {
-    "dev": "vite",
-    "serve": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm run build && firebase deploy",
-    "build": "vite build"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
