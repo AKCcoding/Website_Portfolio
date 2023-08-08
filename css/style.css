@@ -671,9 +671,9 @@ h3.my-profession
 }
 .portfolio .portfolio-item
 {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
+    flex: 0 0 50% 50%;
+    max-width: 50%;
+    margin-bottom: 10px;
 }
 .portfolio .portfolio-item-inner
 {
