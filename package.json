@@ -1,0 +1,15 @@
+{
+  "name": "my-website-portfolio",
+  "version": "1.0.0",
+  "description": "A website portfolio by Alrae Kei",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/AKCcoding/My-Website-Portfolio"
+  },
+  "author": "Alrae Kei",
+  "license": "ISC"
+}
