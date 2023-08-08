@@ -1,0 +1,16 @@
+{
+  "name": "raekei.web.app",
+  "version": "1.0.0",
+  "description": "A website portfolio by Alrae Kei",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/AKCcoding/My-Website-Portfolio"
+  },
+  "author": "alraeatwork@gmail.com www.raekei.web.app",
+  "license": "UNLICENSED"
+}
