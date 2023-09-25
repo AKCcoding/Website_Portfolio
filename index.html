@@ -254,10 +254,18 @@
                       <div class="portfolio-item padd-15">
                         <div class="portfolio-item-inner shadow-dark">
                             <div class="portfolio-img">
+                                <img src="Certificates/CS50X_Alrae.png">
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- portfolio items start -->
+                      <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
                                 <img src="Certificates/Play It Safe.jpg">
                             </div>
                         </div>
-                </div> 
+                    </div> 
                     <!-- portfolio items start -->
                     <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
@@ -437,23 +445,22 @@
                     <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
                     <div class="row">
                         <div class="contact-form padd-15">
-                        <form action="mail.php" method="POST" autocomplete="off">
+                        <form action="sendmail.php" method="post" autocomplete="off" id ="form">
                             <div class="row">
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="text"  class="form-control" placeholder="Name" name="name" id="name" required>
+                                        <input type="text"  class="form-control" placeholder="Name" name="name" required>
                                     </div>
                                 </div>
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject" name="subject" id="subject" required>
+                                        <input type="text" class="form-control" placeholder="Subject" name="subject" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                    
                                         <input type="email"  class="form-control" placeholder="Email" name="email" required>
                                     </div>
                                 </div>
@@ -461,7 +468,7 @@
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <textarea name="message" class="form-control" id="" placeholder="Message" required ></textarea>
+                                        <textarea name="message" class="form-control" id="message" placeholder="Message" required ></textarea>
                                     </div>
                                 </div>
                             </div>
