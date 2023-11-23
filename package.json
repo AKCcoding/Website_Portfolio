@@ -4,11 +4,7 @@
   "description": "A website portfolio by Alrae Kei",
   "main": "index.html",
   "scripts": {
-    "minify-html": "html-minifier-terser index.html --collapse-whitespace --output=public/index.html",
-    "optimize-css": "postcss css/style.css --use autoprefixer cssnano postcss-pxtorem --output=dist/style.css --no-map",
-    "transpile-js": "babel js/preloader.js -o dist/preloader.js --presets=@babel/preset-env",
-    "minify-js": "uglifyjs orig/js/style-switcher.js -c -m -o dist/style-switcher.js",
-    "build":  "npm run minify-html && npm run optimize-css && npm run transpile-js && npm run minify-js"
+    "build":  "npm run"
   },
   "repository": {
     "type": "git",
